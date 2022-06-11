@@ -1,0 +1,50 @@
+.navbar
+{
+position: fixed;
+z-index: 3;
+top: 0;
+width: 100%;
+}
+.card{
+    border-radius: 1em;
+    text-align: left;
+    padding: 1em;
+    height: 96%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex; flex-direction: column;
+        }
+  .card:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .card img{
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+  }
+  .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -104.5px; /*104.5px is half of the button width*/
+}
+.text{
+height:1000px;
+}
+.container{
+  width: 1920px;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding: 3px;
+  margin-top: 70px;
+  background-color: rgb(20, 21, 21);
+  color: white;
+  }
